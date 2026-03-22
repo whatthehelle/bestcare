@@ -1,0 +1,157 @@
+
+.appt-panel {
+    width: 70vw;
+}
+
+.appt-toolbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.appt-filters {
+    margin-bottom: 12px;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.appt-input {
+    padding: 6px 10px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.appt-select {
+    padding: 6px 10px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+.appt-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10px;
+}
+
+.appt-table thead tr {
+    background-color: #f0f4f8;
+    color: #555;
+    text-align: left;
+}
+
+.appt-table th {
+    padding: 8px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.appt-table td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.appt-table tbody tr:hover {
+    background-color: #fafafa;
+}
+
+
+.status-badge {
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.status-scheduled {
+    background: #e8f5e9;
+    color: #388e3c;
+}
+
+.status-confirmed {
+    background: #e3f2fd;
+    color: #1565c0;
+}
+
+.status-cancelled {
+    background: #fce4e4;
+    color: #a33535;
+}
+
+.status-completed {
+    background: #f3e5f5;
+    color: #6a1b9a;
+}
+
+
+.action-cell {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.btn-arrived {
+    background: #a33535;
+    color: white;
+    border: none;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 9px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-edit {
+    background: #e0e0e0;
+    color: #333;
+    border: none;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 9px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-cancel {
+    background: #fce4e4;
+    color: #a33535;
+    border: none;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 9px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-arrived:hover { background: #8b2020; }
+.btn-edit:hover    { background: #c8c8c8; }
+.btn-cancel:hover  { background: #f5c6c6; }
+
+.no-action {
+    font-size: 9px;
+    color: #aaa;
+}
+
+.btn-add {
+    background-color: #a33535;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 10px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-add:hover {
+    background-color: #8b2020;
+}

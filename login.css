@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background-color: #f0f4f8;
+    font-family: 'Liter';
+}
+
+body img {
+    width: 100%;
+    height: auto;
+}
+
+section.header {
+    height: 90px;
+    display: flex;
+    align-items: center
+}
+section.header .container {
+    width: 1440px;
+    max-width: 90%;
+    margin: auto;
+}
+
+section.header .container .brand-name {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section.header .container .brand-name h1,
+section.header .container .brand-name h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Liter';
+}
+
+section.header h1 {
+    font-size: 14px;
+    font-weight: 100;
+
+}
+
+section.header h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+section.header .container .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+    
+.bclogo {
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+}
+
+section.login-page {
+    margin: 70px 0 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.login-page .login-form {
+    background-color: #f9fcff;
+    height: 35vh;
+    padding: 50px 50px 50px;
+    border-radius: 10%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.login-page .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+section.login-page .container .login-paper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px
+}
+
+section.login-page .container .login-paper input.username,
+section.login-page .container .login-paper input.password {
+    height: 2.6vh;
+    width: 16vw;
+    border: 1px solid rgb(196 196 196);
+    border-radius: 4px;
+}
+section.login-page .container .login-paper button.login-btn {
+    margin: auto;
+    padding: 2px 6px;
+    height: 4vh;
+    width: 16vw;
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 4px;
+    cursor: pointer;
+}

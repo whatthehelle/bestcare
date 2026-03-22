@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+}
+
+.sidebar {
+    min-height: 100vh;
+    width: 20vw;
+    max-width: 90%;
+    background-color: #e4e7e8;
+}
+
+.sidebar .container {
+    max-width: 90%;
+    padding: 45px 10px 40px 10px;
+}
+.sidebar .container .brand-name {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sidebar .container .logo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 8px;
+    padding: 0 10px;
+}
+
+.sidebar .container .brand-name h1,
+.sidebar .container .brand-name h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Liter';
+}
+
+.sidebar .container .brand-name h1 {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.sidebar .container .brand-name h4{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.bclogo {
+    width: 40px;
+    height: 40px;
+}
+
+.sidebar nav.sidebar-nav {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column
+}
+
+.sidebar nav.sidebar-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.sidebar nav.sidebar-nav li:hover {
+    background-color: #a33535;
+    border-radius: 8px;
+}
+
+.sidebar nav.sidebar-nav a:hover{
+    color: #ffffff;
+}
+
+.sidebar nav.sidebar-nav ul li a {
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        margin-bottom: 50px
+}
+
+.topbar h1 {
+    padding-left: 16px;
+}
+
+.welcome-banner{
+    background-color: #ffffff;
+    height: 15vh;
+    width: 50vw;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 160, 161, 0.2) 0px 4px 16px;
+
+}
+
+.appointment-card {
+    background-color: #ffffff;
+    box-shadow: rgba(149, 160, 161, 0.2) 0px 4px 16px;
+    height: auto;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 10px 28p;
+    overflow: hidden;
+    margin: 30px 0px 30px 0px;
+}
+
+.card-header {
+    width: 50vw;
+    height: 5vh;
+}
+
+.card-header h4 {
+    margin: 0;
+    margin: 0px 30px 0px 30px;
+}
+
+.card-container p.hint {
+    padding: 0;
+    color: #adadad;
+    margin: 0px 30px 10px 30px;
+    font-size: 10px;
+}  
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+
+    margin: 10px 30px 0px 30px;
+}

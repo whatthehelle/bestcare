@@ -1,0 +1,197 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Liter', sans-serif;
+}
+
+header {
+    height: 70px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bclogo {
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.container {
+    width: 1440px;
+    max-width: 90%;
+    margin: auto;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 26px;
+
+}
+
+header nav ul li a {
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+}
+
+header nav ul li:last-of-type {
+    margin-right: 0;
+}
+
+header .container {
+    max-width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.home {
+    position: relative;
+    color: white;
+}
+  
+section.home img {
+    width: 100%;
+    height: auto;
+}
+
+section.home .home-content {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 99.6%; 
+    width: 100%;
+    background-color: rgba(103, 151, 158, 0.5);
+}
+
+section.home .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+    height: 100%;
+}
+
+section.home .home-content .container h1 {
+    font-weight: 900;
+    font-family: 'Roboto';
+    font-size: 3em;
+}
+
+section.home button.request-btn {
+    height: 5vh;
+    width: 18vw;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(185, 197, 203);
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+section.home button.request-btn:hover {
+    background-color: rgb(168, 190, 201);
+}
+
+section.offer-part {
+    padding-top: 84px;
+    padding-bottom: 80px;
+}
+
+section.offer-part h2 {
+    margin-top: 0;
+    margin-bottom: 78px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 30px;
+}
+
+section.offer-part .offer-slider .container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 45px;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+section.offer-part .offer-slider .offer {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 35px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(149, 160, 161, 0.5) 0px 4px 16px;
+    margin: 0 8px;
+    height: auto;
+    width: 24vw;
+    text-align: justify;
+    padding: 25px;
+}
+
+section.offer-part .offer-slider .offer img {
+    max-width: 100%;
+    width: 5vw;
+    height: auto;
+}
+
+section.offer-part .offer-slider .offer h3 {
+    font-family: 'Liter', sans-serif;
+}
+
+
+section.service-part {
+    padding-top: 84px;
+    padding-bottom: 80px;
+}
+
+section.service-part h2 {
+    margin-top: 0;
+    margin-bottom: 78px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 30px;
+}
+
+section.service-part .service-slider .container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 45px;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+section.service-part .service-slider .service {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 35px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(149, 160, 161, 0.5) 0px 4px 16px;
+    margin: 0 8px;
+    height: auto;
+    width: 18vw;
+    text-align: justify;
+    padding: 25px;
+}
+
+section.service-part .service-slider .service img {
+    max-width: 100%;
+    width: 2vw;
+    height: auto;
+}
+
+section.service-part .service-slider .service h3 {
+    font-family: 'Liter', sans-serif;
+}
